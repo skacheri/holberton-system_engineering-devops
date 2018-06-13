@@ -1,2 +1,2 @@
 #!/bin/bash
-find .-guillaume chown betty hello
+find .-user guillaume -exec chown betty hello
