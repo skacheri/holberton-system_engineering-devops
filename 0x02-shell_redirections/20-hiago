@@ -1,2 +1,2 @@
 #!/bin/bash
-echo <&0 | tr -d "[cC]"
+echo ${var} |tr -d "[cC]"
