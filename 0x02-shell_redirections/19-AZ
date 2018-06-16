@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ${string} |tr '[Ac]' '[Ze]'
+cat <&0 | tr '[Ac]' '[Ze]'
