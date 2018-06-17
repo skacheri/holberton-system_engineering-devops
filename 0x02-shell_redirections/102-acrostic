@@ -1,3 +1,2 @@
 #!/bin/bash
-#cat <&0 | cut -c1 | tr -s '\n' '\0'
 cat <&0 | cut -c1 |  paste -s -d ''
